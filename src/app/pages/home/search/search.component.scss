@@ -1,0 +1,12 @@
+.search {
+  &__content {
+    &__keyword {
+      background-image: url("../../../../assets/home/search/background.png");
+      height: 138px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+    }
+  }
+}
