@@ -5,10 +5,11 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
 import { SearchComponent } from './search/search.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { JobsComponent } from './jobs/jobs.component';
 
 
 @NgModule({
-  declarations: [HomeComponent, SearchComponent, SidebarComponent],
+  declarations: [HomeComponent, SearchComponent, SidebarComponent, JobsComponent],
   imports: [
     CommonModule,
     HomeRoutingModule

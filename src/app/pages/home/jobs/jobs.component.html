@@ -1,0 +1,30 @@
+<div class="jobs">
+  <div class="jobs__container">
+    <div
+      class="row mb-4 bg-white w-100 pt-3 pb-3 shadow-sm bg-white"
+      *ngFor="let job of this.jobQuery.jobs$ | async"
+      style="border-radius: 10px"
+    >
+      <div class="col-md-2 d-flex align-items-center justify-content-center">
+        <img [src]="job.company_logo" width="90" height="90" alt="" />
+      </div>
+      <div class="col-md-7">
+        <p style="color: #334680; font-weight: bold">Kasisto</p>
+        <p style="color: #334680">
+          {{ job.title }}
+        </p>
+        <button type="button" class="btn btn-outline-secondary">
+          {{ job.type }}
+        </button>
+      </div>
+      <div class="col-md-3 d-flex align-items-end justify-content-between">
+        <p style="color: #b9bdcf" class="d-flex">
+          <span class="material-icons"> public </span>{{ job.location }}
+        </p>
+        <p style="color: #b9bdcf" class="d-flex">
+          <span class="material-icons"> query_builder </span>5 days ago
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
