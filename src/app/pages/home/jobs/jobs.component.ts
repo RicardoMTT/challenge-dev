@@ -8,6 +8,7 @@ import { JobQuery } from 'src/app/stores/job/job.query';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class JobsComponent implements OnInit {
+  p: number = 1;
   constructor(public jobQuery: JobQuery) {}
 
   ngOnInit(): void {}

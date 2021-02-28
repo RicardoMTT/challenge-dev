@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { tap } from 'rxjs/operators';
+import { tap, map } from 'rxjs/operators';
 import { Job } from 'src/app/models/job.model';
 import { JobsStore } from 'src/app/stores/job/job.store';
 import { HomeApi } from './home.api';
@@ -32,6 +32,31 @@ export class HomeService {
           });
         }),
         tap((_) => this.jobsStore.setLoading(false))
+      )
+      .subscribe(console.log);
+  }
+
+  getJobsByKeyword(term: string) {
+    this.api
+      .getJobsByKeyword(term)
+      .pipe(
+        tap((response: Job[]) => {
+          console.log('ree', response);
+
+          this.jobsStore.remove();
+          const newJobsId = response.map((elm) => elm.id);
+          this.jobsStore.upsertMany(response);
+          const numbersPage = Math.ceil(response.length / 5);
+          this.jobsStore.update((state) => {
+            return {
+              ...state,
+              currentPage: 1,
+              pagesNumbers: numbersPage,
+              hasReachedLimit: newJobsId.length === numbersPage,
+              jobsID: newJobsId,
+            };
+          });
+        })
       )
       .subscribe(console.log);
   }

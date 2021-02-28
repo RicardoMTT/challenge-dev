@@ -2,14 +2,20 @@
   <div class="jobs__container">
     <div
       class="row mb-4 bg-white w-100 pt-3 pb-3 shadow-sm bg-white"
-      *ngFor="let job of this.jobQuery.jobs$ | async"
+      *ngFor="
+        let job of this.jobQuery.jobs$
+          | async
+          | paginate: { itemsPerPage: 5, currentPage: p }
+      "
       style="border-radius: 10px"
     >
       <div class="col-md-2 d-flex align-items-center justify-content-center">
         <img [src]="job.company_logo" width="90" height="90" alt="" />
       </div>
       <div class="col-md-7">
-        <p style="color: #334680; font-weight: bold">Kasisto</p>
+        <p style="color: #334680; font-weight: bold" class="mt-2">
+          {{ job.company }}
+        </p>
         <p style="color: #334680">
           {{ job.title }}
         </p>
@@ -17,7 +23,7 @@
           {{ job.type }}
         </button>
       </div>
-      <div class="col-md-3 d-flex align-items-end justify-content-between">
+      <div class="col-md-3 d-flex align-items-end justify-content-between mt-3">
         <p style="color: #b9bdcf" class="d-flex">
           <span class="material-icons"> public </span>{{ job.location }}
         </p>
@@ -28,3 +34,5 @@
     </div>
   </div>
 </div>
+
+<pagination-controls (pageChange)="p = $event"></pagination-controls>
