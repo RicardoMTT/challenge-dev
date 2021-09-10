@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1631298833832,
+  "timestamp": 1631298954048,
   "index": "challenge-dev/index.html",
   "assetGroups": [
     {
@@ -64,7 +64,7 @@
     "challenge-dev/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "challenge-dev/index.html": "62e3ffb92a7dbc291f3d40315114593a71a0466e",
     "challenge-dev/main.5be5b2f5f7b486b355d2.js": "f5aeb67af110579ddabc991fc7502e190348f046",
-    "challenge-dev/manifest.webmanifest": "adf16e3a1e0d01fce24cf19dd12f5ec3d09ab1e1",
+    "challenge-dev/manifest.webmanifest": "eb1e6c4eae97a132fdd560865ea4e8c0882c796f",
     "challenge-dev/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "challenge-dev/runtime.02bbf91ab76ee1f0d4a6.js": "c20d6fd526e35e66b139e78dfd4d3f181b8ea755",
     "challenge-dev/styles.274c7544a6d3aa426e21.css": "835f5c2feddd9a5e9b127814533003cd0fc0e621"
