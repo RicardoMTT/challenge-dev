@@ -33,7 +33,12 @@ export class HomeService {
         }),
         tap((_) => this.jobsStore.setLoading(false))
       )
-      .subscribe(console.log);
+      .subscribe(
+        (resp) => console.log('resp', resp),
+        (error) => {
+          console.log('error', error);
+        }
+      );
   }
 
   getJobsByKeyword(term: string) {
