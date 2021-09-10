@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "timestamp": 1631297098853,
+  "index": "https://RicardoMTT.github.io/challenge-dev/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://RicardoMTT.github.io/challenge-dev/4.bd720195a1421f16807d.js",
+        "https://RicardoMTT.github.io/challenge-dev/5.fad234babc8792de81a0.js",
+        "https://RicardoMTT.github.io/challenge-dev/favicon.ico",
+        "https://RicardoMTT.github.io/challenge-dev/index.html",
+        "https://RicardoMTT.github.io/challenge-dev/main.5be5b2f5f7b486b355d2.js",
+        "https://RicardoMTT.github.io/challenge-dev/manifest.webmanifest",
+        "https://RicardoMTT.github.io/challenge-dev/polyfills.8c151b8375e767ff858f.js",
+        "https://RicardoMTT.github.io/challenge-dev/runtime.02bbf91ab76ee1f0d4a6.js",
+        "https://RicardoMTT.github.io/challenge-dev/styles.274c7544a6d3aa426e21.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://RicardoMTT.github.io/challenge-dev/assets/header/github-logo.png",
+        "https://RicardoMTT.github.io/challenge-dev/assets/home/search/background.png",
+        "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-128x128.png",
+        "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-144x144.png",
+        "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-152x152.png",
+        "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-192x192.png",
+        "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-384x384.png",
+        "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-512x512.png",
+        "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-72x72.png",
+        "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-96x96.png",
+        "https://RicardoMTT.github.io/challenge-dev/background.c84275682c4b641c6db4.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://RicardoMTT.github.io/challenge-dev/4.bd720195a1421f16807d.js": "e617cf9702e0e8613e2500edb7cba15f28ce2a25",
+    "https://RicardoMTT.github.io/challenge-dev/5.fad234babc8792de81a0.js": "57a1bf55fcfaa977948f7abb8629c7257949a5b0",
+    "https://RicardoMTT.github.io/challenge-dev/assets/header/github-logo.png": "337b7cc06184984e148c075df20ef009e0e6ecaa",
+    "https://RicardoMTT.github.io/challenge-dev/assets/home/search/background.png": "ff196b210db5ed8d83d59cc940f0f720da3a8918",
+    "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://RicardoMTT.github.io/challenge-dev/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://RicardoMTT.github.io/challenge-dev/background.c84275682c4b641c6db4.png": "ff196b210db5ed8d83d59cc940f0f720da3a8918",
+    "https://RicardoMTT.github.io/challenge-dev/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://RicardoMTT.github.io/challenge-dev/index.html": "3865b761b43044cfb8ae4de5fbd0c6a2abc973ea",
+    "https://RicardoMTT.github.io/challenge-dev/main.5be5b2f5f7b486b355d2.js": "f5aeb67af110579ddabc991fc7502e190348f046",
+    "https://RicardoMTT.github.io/challenge-dev/manifest.webmanifest": "b21dfb50c46e56f89ca68f8a7eb4ea6a86c307ea",
+    "https://RicardoMTT.github.io/challenge-dev/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "https://RicardoMTT.github.io/challenge-dev/runtime.02bbf91ab76ee1f0d4a6.js": "c20d6fd526e35e66b139e78dfd4d3f181b8ea755",
+    "https://RicardoMTT.github.io/challenge-dev/styles.274c7544a6d3aa426e21.css": "835f5c2feddd9a5e9b127814533003cd0fc0e621"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
