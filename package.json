@@ -29,6 +29,7 @@
     "@datorama/akita": "^6.0.0",
     "@datorama/akita-ngdevtools": "^6.0.0",
     "@nguniversal/express-engine": "^11.0.1",
+    "angular-cli-ghpages": "^1.0.0-rc.2",
     "express": "^4.15.2",
     "http-server": "^13.0.1",
     "ngx-pagination": "^5.0.0",
