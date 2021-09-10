@@ -129,7 +129,7 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/challenge-github/server",
+            "outputPath": "docs/",
             "main": "server.ts",
             "tsConfig": "tsconfig.server.json"
           },
